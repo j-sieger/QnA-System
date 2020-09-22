@@ -1,5 +1,5 @@
 # SQuAD-QA-System
-Credits to original authors. i have used these for my research project
+
 This is the adapted implementation (the model has been adapted) of [BI-DIRECTIONAL ATTENTION FLOW FOR MACHINE COMPREHENSION](https://arxiv.org/abs/1611.01603) (Seo et al., 2016).
 
 Link to download: [QA_Model_Demo](https://drive.google.com/open?id=1Fbu0ugldrTTkpFYKcLUMY8WSjpRrkAb_)
@@ -74,12 +74,6 @@ The model is trained for 10 epochs with a batch size of 128 and an initial learn
 |----|----|
 | 65.8 | 52.0 |
 
-## Directions for improvement
-- The word embeddings used here is pre-trained on 6B word corpora (Wikipedia + Gi-gaword) and the dimension is chosen as 100. A larger dimension can be selected and other kinds of word embeddings training on larger corpora such as the [GloVe trained on 840B comman crawl texts](https://nlp.stanford.edu/projects/glove/) can be used.
-- Here NLTK is used as the tokenizing tool. As a more powerful alternative, the [Stanford CoreNLP tokenizer](https://nlp.stanford.edu/software/tokenizer.html) can be used.
-- In the decoding layer, when calculating the probability of start word and end word position, a more advanced pointer network ([Wang and Jiang, 2016](https://arxiv.org/abs/1608.07905)) can be utilized to improve the output accuracy.
-- In the decoding layer, the single layer BiLSTM can be replaced by the multi-layer BiLSTM, which should be better.
-- The hidden state dimensionality should be tuned based on the validation set.
 
 ## Acknowledgement
-This project is designed for [Stanford cs224n course](http://web.stanford.edu/class/cs224n/). Thanks for the great guidance of this course!
+Credits to original authors. i have used these for my project
