@@ -1,4 +1,5 @@
 # SQuAD-QA-System
+Credits to original authors. i have used these for my research project
 This is the adapted implementation (the model has been adapted) of [BI-DIRECTIONAL ATTENTION FLOW FOR MACHINE COMPREHENSION](https://arxiv.org/abs/1611.01603) (Seo et al., 2016).
 
 Link to download: [QA_Model_Demo](https://drive.google.com/open?id=1Fbu0ugldrTTkpFYKcLUMY8WSjpRrkAb_)
